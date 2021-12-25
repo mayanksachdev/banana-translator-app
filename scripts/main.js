@@ -2,7 +2,7 @@ let myButton = document.querySelector('button')
 let myTextArea = document.querySelector('textarea')
 let myOutputDiv = document.querySelector('.div-output')
 
-let serverUrl = 'https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json'
+let serverUrl = 'https://api.funtranslations.com/translate/minion.json'
 
 function addUrlParameter(text) {
     let serverUrlParameter = serverUrl + '?' + 'text=' + text;
@@ -19,20 +19,19 @@ function fetchUrl(parameterValue) {
             myOutputDiv.innerText = outputValue
         })
         .catch(error => {
-                console.log('error has occured: ' + error)
-                alert('there is some problem with the server. please, come back later.')
+            console.log('error has occured: ' + error)
+            alert('there is some problem with the server. please, come back later.')
 
-            })
-        }
+        })
+}
 
 
-    myButton.addEventListener('click', function () {
-        console.log('clicked');
-        let userInput = myTextArea.value;
-        if (!userInput) {
-            alert('please enter a valid text!')
-        } else {
-            fetchUrl(userInput)
-        }
+myButton.addEventListener('click', function () {
+    let userInput = myTextArea.value;
+    if (!userInput) {
+        alert('please enter a valid text!')
+    } else {
+        fetchUrl(userInput)
+    }
 
-    })
+})
