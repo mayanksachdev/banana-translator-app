@@ -1,6 +1,6 @@
-let myButton = document.querySelector('button')
-let myTextArea = document.querySelector('textarea')
-let myOutputDiv = document.querySelector('.div-output')
+let myButton = document.querySelector('.btn')
+let myTextArea = document.querySelector('.textarea-input')
+let myOutputDiv = document.querySelector('.container-output')
 
 let serverUrl = 'https://api.funtranslations.com/translate/minion.json'
 

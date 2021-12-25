@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&family=Martel:wght@400;700&family=Montserrat:wght@400;700&family=Pacifico&family=Shizuru&display=swap');
+
+
+:root {
+    font-family: 'Pacifico', cursive;
+    --primary-color: #fde047;
+    --secondary-color: #0369a1;
+    --text-color: #d4d4d8;
+    --container-background-color: #fef9c3;
+
+}
+
+body {
+    margin: 0rem;
+    background-color: var(--primary-color);
+}
+
+.header {
+    background-color: var(--secondary-color);
+}
+
+.header-heading {
+    padding: 1rem;
+    margin: 0rem;
+    text-align: center;
+    color: var(--text-color);
+    font-weight: bolder;
+    text-shadow: 2px 2px 0.5px black;
+}
+
+.container-img {
+    padding: 0.5rem;
+    height: 200px;
+    text-align: center;
+
+}
+
+.image {
+    margin: 0rem;
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+
+
+}
+
+.container-about {
+    background-color: var(--container-background-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.container-input {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.textarea-input {
+    background-color: var(--container-background-color);
+    width: 70%;
+    height: 60px;
+    padding: 1rem;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container-btn {
+    margin: 0rem;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.btn {
+    color: var(--secondary-color);
+    background-color: var(--text-color);
+    font-family: 'Pacifico', cursive;
+    font-size: medium;
+    padding: 0.2rem;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+
+}
+
+.output-pointer {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.container-output {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 0.2rem auto 1rem;
+    width: 70%;
+    background-color: var(--container-background-color);
+    padding: 1rem 0.5rem 0.5rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    font-size:larger;
+    color: var(--text-color);
+    text-shadow: 1px 1px 0.5px black;
+
+}
