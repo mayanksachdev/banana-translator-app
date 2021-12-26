@@ -45,7 +45,8 @@ body {
 }
 
 .container-about {
-    background-color: var(--container-background-color);    padding: 1rem;
+    background-color: var(--container-background-color);
+    padding: 1rem;
     text-align: center;
 }
 
